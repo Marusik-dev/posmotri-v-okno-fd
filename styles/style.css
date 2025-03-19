@@ -204,12 +204,12 @@ ol {
   border: none;
   border-top: 1px solid currentColor;
   border-bottom: 1px solid currentColor;
-  width: 100%;
   appearance: none;
   cursor: pointer;
   width: 225px;
   height: 27px;
   font-family: inherit;
+  font-size: inherit;
 }
 
 .search-form__textfield:focus {
