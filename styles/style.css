@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+*,
+*::before,
+*::after {
+  outline: 1px solid red
+}
+
 html {
   block-size: 100%;
 }
@@ -11,8 +17,6 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  margin-right: 30px;
-  margin-left: 30px;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -20,6 +24,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 
 h1,
@@ -81,7 +86,7 @@ ol {
   grid-template-areas:
     "result content__details";
   align-items: end;
-  padding: 211px 30px 133px 37px;
+  padding: 133px 0;
 }
 
 .content__details {
@@ -210,6 +215,7 @@ ol {
   cursor: pointer;
   width: 225px;
   height: 27px;
+  font-family: inherit;
 }
 
 .search-form__textfield:focus {
@@ -222,7 +228,7 @@ ol {
 }
 
 .search-form__label-text {
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   line-height: 1;
 }
