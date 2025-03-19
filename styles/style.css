@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-  outline: 1px solid red
-}
-
 html {
   block-size: 100%;
 }
