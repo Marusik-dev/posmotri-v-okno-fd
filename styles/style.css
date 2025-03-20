@@ -75,7 +75,7 @@ ol {
 .content {
   width: 1140px;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 711px 399px;
   gap: 30px;
   grid-template-areas:
     "result content__details";
@@ -148,6 +148,7 @@ ol {
 
 .content__accent {
   color: rgb(84, 80, 80);
+  line-height: 0.94;
 }
 
 .result {
@@ -282,8 +283,7 @@ input[type='checkbox']:checked+.search-form__pseudo-checkbox::after {
 }
 
 .search-form__submit-button {
-  align-self: flex-end;
-  place-self: end right;
+  place-self: end left;
   width: 194px;
 }
 
